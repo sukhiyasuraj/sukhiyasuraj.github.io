@@ -1,1 +1,48 @@
-contact PAGE
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Reggie's Coffee Shop - Contact</title>
+</head>
+
+<body>
+ 
+   <header>
+    <h1>Reggie's Coffee Shop</h1>
+    <nav>NAVIGATION</nav>
+        <a href="index.html">Home</a>
+  </header>
+  <!-- main content of the page -->
+<main>
+    <h2>Contact US</h2>
+    <h3>We are happy to have you </h3>
+    <form action="thanks.html" method="POST">
+        <label for="fullname">Your Name</label>
+        <input type="text" id="fullname" name="fullname" placeholder="John snow" value="Mr.">
+        <div>
+
+            <label for="youremail">Email</label>
+            <input type="email" id="youremail" name="youremail">
+        </div>
+        <div>
+            <label for="message">message</label>
+            <textarea name="message" id="message"></textarea>
+        </div> 
+        <div>
+            <label for="ticket">How many ticket?(sold in pair)</label>
+            <input type="number" name="ticket" id="ticket min="2" max="10" step="2">
+        </div>
+
+        <button type="submit">Sign up </button>
+    
+    </form>
+
+</main>
+  <!-- *********footer of the page********* -->
+  <footer>
+    <p>Copyright &copy; Reggie&apos;s Coffee Shop, 2021</p>
+  </footer>
+</body>
+
+</html>
