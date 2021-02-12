@@ -1,0 +1,33 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font: size 18px; ;
+    }
+header,footer{
+    background-color:#8D6A9F;
+}
+
+.site-title{
+    color: #F71735;
+    text-align: center;
+
+}
+#my-image{
+    -moz-box-shadow:    0px 0px 2px 1px #000;
+    -webkit-box-shadow: 0px 0px 2px 1px #000;
+    box-shadow:         0px 0px 2px 1px #000;
+
+}
+#square{
+    list-style-type: square;
+}   
+li:nth-child(odd) {
+    background: #FF9F1C;
+  }
+  a:link {
+    text-decoration: none;
+    background-color: #F71735;
+    border-style:solid;
+  }
+  a:hover{
+      background-color: #FF9F1C;
+  }
