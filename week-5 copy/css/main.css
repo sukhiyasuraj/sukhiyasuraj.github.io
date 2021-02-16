@@ -1,6 +1,6 @@
 /* Command + / to add a comment block */
 body {
-    color: darkslategray !important;
+    color: darkslategray;
     font-family: Arial, Helvetica, sans-serif;
   }
   
@@ -118,5 +118,3 @@ body {
   dl ul li:nth-child(2n+1) {
     background-color: white;
   }
-  /* css specificity */
-  
