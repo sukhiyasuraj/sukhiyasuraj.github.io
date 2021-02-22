@@ -68,6 +68,8 @@ header{
     text-align: center;
     color: black;
 }
+ /* Styling tag for text on top of the image*/
+ /* Header Image for */
 header img{
         position: relative; 
         width: 100%;
@@ -116,10 +118,6 @@ header h1{
       margin-right: -4px;
     }
   }
-  
-  
-  /* Styling tag for text on top of the image*/
-
 h1{
     font-size: 4rem;
 }
@@ -175,8 +173,7 @@ input[type=text],input[type=email],select {
     width: 90%;
 
   }
-  
-.formcss{
+  .formcss{
     border:black;
     border-width: 1px;
     border-style: solid;
