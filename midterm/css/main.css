@@ -67,8 +67,65 @@ html{
 header{
     text-align: center;
     color: black;
+    
 
 }
+header img{
+        position: relative; 
+        width: 100%;
+}
+header h1{
+    color: white;
+    position: absolute; 
+    font-size: 3rem;
+    top: 15%; 
+    left: 0; 
+    width: 100%; 
+}
+.nav ul {
+    list-style: none;
+    
+    padding: 0;
+    margin: 0;
+  }
+  .nav li {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40rem;
+    border-bottom: 1px solid #888;;
+  }
+   
+  .nav a {
+    text-decoration: none;
+    align-items: center;
+    color: black;
+    display: block;
+    transition: .3s;  
+    /* Tag for Transition */
+  }
+    .nav a.active {
+    cursor: default;
+  }
+   
+     .nav li {
+      width: 120px;
+      border-bottom: none;
+      height: 50px;
+      line-height: 50px;
+      font-size: 1.4em;
+    }
+   
+    /* Option 1 - Display Inline */
+    .nav li {
+      display: inline-block;
+      margin-right: -4px;
+    }
+  }
+  
+  
+  
+
 
   /* Styling tag for text on top of the image*/
 
@@ -76,11 +133,12 @@ h1{
     font-size: 4rem;
 }
 h2,h3{
-    font-size: 2rem;
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin-left: 1%;
 }
-
 li{
-    margin-left:2%;
+    margin-left:3%;
     list-style: disc;
 }
 
@@ -92,14 +150,14 @@ body{
     }
 /* adding text next to image in article */
 .container_image{
-    width: 20%;
+    width: 25%;
     float: left;
     padding: 10px 10px 10px 10px;
       }
 .container_text{
     display: inline;
-    font-size: 1.10rem;
-    letter-spacing: 1px;
+    font-size: 1rem;
+    letter-spacing: px;
     word-spacing: 5px;
   }
 
@@ -108,11 +166,34 @@ footer{
     font-size: 1.5rem;
 }
 /* Form Styling */
+input[type=text],input[type=email],select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  textarea{
+    width: 90%;
+
+  }
+  
 .formcss{
     border:black;
     border-width: 2px;
     border-style: solid;
     font-size:1.5rem;
     width: 100%;
+    word-spacing:2px;
 }
-style="height:200px"

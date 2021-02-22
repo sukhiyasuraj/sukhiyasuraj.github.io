@@ -9,14 +9,22 @@
 <body>
   <header>
       <img src="./images/lone-starfish-wide.jpg" alt="lone-starfish-wide" width="100%">
-      <div class="centered"><h1>Lone Starfish</h1></div>
-      <nav>
-          HOME STORY CONTACT
+      <div class="centered"><h1><span>Lone Starfish</span></h1></div>
+      <nav class="nav">
+        <ul>
+          <li><a href="#home">HOME</a></li>
+          <li>|</li>
+          <li><a href="#story">STORY</a></li>
+          <li>|</li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
       </nav>
   </header>
+  <br>
   <!-- main content of the page -->
   <main>
     <h2>Life of a Starfish</h2>
+    <br>
       <article>
           <section>
             <img class="container_image" src="./images/lone-starfish.jpg">
@@ -25,9 +33,11 @@
             </p>
             </section>
             <br>
+            <br>
         </article>
-        <div>
+        <div class="list">
         <h2>Facts About Starfish</h2>
+        <br>
                 <ul>
                     <li>Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy.</li>
                     <li>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</li>
@@ -35,9 +45,11 @@
                     <li>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</li>
                 </ul>
         </div>
+        <br>
         <!-- Form Section on the page  -->
         <div>
             <h2>Contact to learn More</h2>
+            <br>
             <form class="formcss" action="thanks.html" method="POST">
                 <label for="fullname">Your Name</label><br>
                 <input type="text" id="fullname" name="fullname"><br>
@@ -49,16 +61,17 @@
                     <label for="message">Your Message</label><br>
                     <textarea name="message" id="message"></textarea><br>
                 </div> 
+                <br>
                 <div>
                     <label for="vist">Would you like to vist the Starfish?</label><br>
-                    <input type="radio" id="yes" name="choice" value="yes">
+                    <br>
                     <label for="male">Yes</label>
-                    <input type="radio" id="no" name="choice" value="No">
+                    <input type="radio" id="yes" name="choice" value="yes">
                     <label for="no">No</label>
-                    <input type="radio" id="maybe" name="choice" value="maybe">
+                    <input type="radio" id="no" name="choice" value="No">
                     <label for="maybe">Maybe</label>
-                </div>
-
+                    <input type="radio" id="maybe" name="choice" value="maybe">
+                    <br>
                 <button type="submit">Send</button>
             </form>
         </div>
