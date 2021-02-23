@@ -81,8 +81,7 @@ header h1{
     font-size: 3rem;
     top: 25%; 
     left: 0; 
-    width: 100%; 
-    position: fixed;
+    width: 100%;
 }
 /* ***********************Navigation Bar Styling*************************** */
 .nav ul {
