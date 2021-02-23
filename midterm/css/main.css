@@ -59,7 +59,7 @@ table {
 
 
 html{
-    font-size: 14px;
+    font-size: 16px;
     margin-left: 12%;
     margin-right: 12%;
     background-color: lightgrey;
@@ -79,10 +79,11 @@ header h1{
     color: white;
     position: absolute; 
     font-size: 2.2rem;
-    top: 15%; 
+    top: 250px; 
     left: 0; 
     width: 100%; 
 }
+/* ***********************Navigation Bar Styling */
 .nav ul {
     list-style: none;
     padding: 0;
@@ -90,7 +91,7 @@ header h1{
   }
 .nav li {
     font-family: 'Oswald', sans-serif;
-    line-height: 40px;
+    line-height: 100px;
     height: 40rem;
   }
    
@@ -107,7 +108,7 @@ header h1{
   }
    
 .nav li {
-      width: 80px;
+      width: 150px;
       height: 20px;
       line-height: 40px;
       font-size: 1.25rem;
@@ -138,7 +139,7 @@ body{
     }
 /* adding text next to image in article */
 .container_image{
-    width: 25%;
+    width: 100px;
     float: left;
     padding: 10px 10px 10px 10px;
       }
