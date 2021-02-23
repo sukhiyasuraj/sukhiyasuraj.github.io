@@ -62,7 +62,7 @@ html{
     font-size: 16px;
     margin-left: 12%;
     margin-right: 12%;
-    background-color: lightgrey;
+    background-color: #aad4cf;
 }
 /* Header Styling */
 header{
@@ -79,9 +79,10 @@ header h1{
     color: white;
     position: absolute; 
     font-size: 3rem;
-    top: 20%; 
+    top: 25%; 
     left: 0; 
     width: 100%; 
+    position: fixed;
 }
 /* ***********************Navigation Bar Styling*************************** */
 .nav ul {
