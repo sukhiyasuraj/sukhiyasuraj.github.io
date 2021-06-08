@@ -31,24 +31,13 @@ h4 {
 
 img {
   display: block;
-}
-
-@media (max-width: 960px) {
-  .header {
-    grid-template-rows: repeat(2, 1fr);
-  }
-  img {
-    width: 100%;
-    height: auto;
-  }
+  /* All images fit container upto 100% width */
+  max-width: 100%;
+  height: auto;
 }
 
 @media (min-width: 960px) {
   .header {
     grid-template-columns: repeat(2, 1fr);
-  }
-  img {
-    width: 100%;
-    height: auto;
   }
 }
