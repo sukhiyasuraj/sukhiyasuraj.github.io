@@ -1,0 +1,39 @@
+html{
+
+}
+
+footer{
+    background-color: #FFFD8C;
+}
+
+
+@media (min-width :960px){
+    header{
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 100%;
+    }
+    main{
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 100%;
+    }
+    header img{
+        width: 114.73px;
+        height: auto;
+    }
+    footer{
+        width: 100%;
+    }
+    .pagehead{
+    ;
+        text-align: left;
+        letter-spacing: -1px;
+    }
+    .container{
+        width: 100%;
+        display: grid;
+        grid: template columns 1fr 2fr ;
+    }
+       
+}
