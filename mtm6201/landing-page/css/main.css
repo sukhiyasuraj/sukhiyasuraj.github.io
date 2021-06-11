@@ -142,18 +142,17 @@ p {
     background-color: #eee;
     font-family: "Montserrat", "sans-serif";
 }
+
 .checkboxs-terms {      
     font-family: "Montserrat", "sans-serif";
     margin:1px;
-   align-items: left;
-}
-.checkboxs-terms span {
-  align-items: left;
-}
-/* *****************************************************Using flex to put everything side by side************************** */
-.checkboxs-terms {
     display: flex;
+    align-items: center;
 }
+
+/* *****************************************************Using flex to put everything side by side************************** */
+
+
 .contacthead button {
     background-color: #57eeab;
     padding: 0.5rem;
@@ -198,7 +197,7 @@ footer {
 }
 .footer .socialmedia {       
     margin-left: 1rem;
-    flex-basis: auto;
+    flex-basis: 100%;
 }
 
 .footerform div {
@@ -211,8 +210,6 @@ footer {
 .socialmedia a {
     margin: 0.5rem;
 }
-
-
 
 
 /* ***************************Desktop******************************* */
