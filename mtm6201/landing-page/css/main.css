@@ -108,15 +108,17 @@ p {
 }
 /* **************Styling the Form as per mokup********************* */
 .contacthead {
-    padding: 2rem;
-    margin: 2.5rem 1.5rem;
-    box-shadow: 8px 0.2px 128px 32px rgba;
+   
+    margin-left: 3rem;
+    margin-right: 3rem;
+    box-shadow: 8px 0.2px 64px 32px rgba;
     border-radius: 20px;
     background-color: white;
+    padding:3rem;
 }
 /* *************Using Font Weight to make font bold************************ */
 .contacthead h2 {
-    font-weight: 1000;
+    font-weight: 800;
 }
 .contacthead p {
     margin-left: 1rem;
@@ -124,9 +126,9 @@ p {
 }
 .contacthead form p {
     font-size: 0.5rem;
-    line-height: 2;
+    line-height: 3;
     margin-left: 1rem;
-    margin-right: auto;
+    margin-right: 1rem;
     text-align: center;
 }
 
@@ -141,8 +143,12 @@ p {
     font-family: "Montserrat", "sans-serif";
 }
 .checkboxs-terms {      
-    margin:1rem,1rem,1rem,0;
+    font-family: "Montserrat", "sans-serif";
+    margin:1px;
    align-items: left;
+}
+.checkboxs-terms span {
+  align-items: left;
 }
 /* *****************************************************Using flex to put everything side by side************************** */
 .checkboxs-terms {
@@ -190,7 +196,6 @@ footer {
     border: none;
     width: 100%;
 }
-/*  */
 .footer .socialmedia {       
     margin-left: 1rem;
     flex-basis: auto;
