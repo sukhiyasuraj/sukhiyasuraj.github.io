@@ -140,25 +140,22 @@ p {
     background-color: #eee;
     font-family: "Montserrat", "sans-serif";
 }
-.term {        /* Selecting the checkbox for terms and conditions using the id applied */
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-top: 1rem;
-    height: 20px;
-    width: 20px;
+.checkboxs-terms {      
+    margin:1rem,1rem,1rem,0;
+   align-items: left;
 }
 /* *****************************************************Using flex to put everything side by side************************** */
 .checkboxs-terms {
     display: flex;
 }
-.contact button {
+.contacthead button {
     background-color: #57eeab;
-    padding: 1rem;
+    padding: 0.5rem;
     width: 100%;
     font-weight: bold;
     border: none;
-    border-radius: 8px;
-    font-size: 1.75rem;
+    border-radius: 4px;
+    font-size: 1rem;
 }
 /* ***********************************************Footer Designing ********************************************************** */
 footer {
