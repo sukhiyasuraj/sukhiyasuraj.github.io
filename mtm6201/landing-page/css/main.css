@@ -1,39 +1,198 @@
-html{
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
-footer{
-    background-color: #FFFD8C;
+
+
+
+
+/* ********************************************CSSSS Reset**************************** */
+
+
+html {
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f7f7ff;
+    color: #333131;
+}
+button {
+    font-family: "Montserrat", "sans-serif";
+}
+
+header {
+    padding: 1rem 2rem 1.5rem;
+}
+
+header img {
+    width: 100px;
+}
+h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+p {
+    font-size: 0.75rem;
+}
+/* ************** Page head logo****************************/
+.headlogo {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+/* Applying margin to main page section */
+.pmain {
+    margin: 2.75rem;
+}
+.pagehead h1{
+    line-height: 1;
+}
+.pagehead p{
+    margin-left: 1rem;
+    margin-right: 0rem;
+}
+/* **************Styling the Form as per mokup********************* */
+.contacthead {
+    padding: 2rem;
+    margin: 2.5rem 1.5rem;
+    box-shadow: 8px 0.2px 128px 32px rgba;
+    border-radius: 20px;
+    background-color: white;
+}
+/* *************Using Font Weight to make font bold************************ */
+.contacthead h2 {
+    font-weight: 1000;
+}
+.contacthead p {
+    margin-left: 1rem;
+    margin-right: 0rem;
+}
+.contacthead form p {
+    font-size: 0.5rem;
+    line-height: 2;
+    margin-left: 1rem;
+    margin-right: auto;
+    text-align: center;
+}
+
+.contacthead input {
+    padding: 1rem;
+    width: 100%;
+    display: block;
+    border-radius: 8px;
+    margin: 0.5rem 0;
+    border: none;
+    background-color: #eee;
+    font-family: "Montserrat", "sans-serif";
+}
+.term {        /* Selecting the checkbox for terms and conditions using the id applied */
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    height: 20px;
+    width: 20px;
+}
+/* *****************************************************Using flex to put everything side by side************************** */
+.checkboxs-terms {
+    display: flex;
+}
+.contact button {
+    background-color: #57eeab;
+    padding: 1rem;
+    width: 100%;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.75rem;
+}
+/* ***********************************************Footer Designing ********************************************************** */
+footer {
+    background-color: #fffd8c;
+    padding: 2rem;
+    margin-top: 1rem;
+}
+
+/************* Styling the footer button **********************/
+
+.footer button {
+    font-weight: bold;
+    font-size: 1.25rem;
+    background-color: #ff8480;
+    color: white;
+    padding: 0.75rem;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    margin-left: 1rem;
+    margin-right: 0rem;
+    
+}.footerform {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footerform input {
+    padding: 1rem;
+    border-radius: 8px;
+    border: none;
+    width: 100%;
 }
 
 
-@media (min-width :960px){
-    header{
-        margin-left: 5%;
-        margin-right: 5%;
-        width: 100%;
-    }
-    main{
-        margin-left: 5%;
-        margin-right: 5%;
-        width: 100%;
-    }
-    header img{
-        width: 114.73px;
-        height: auto;
-    }
-    footer{
-        width: 100%;
-    }
-    .pagehead{
-    ;
-        text-align: left;
-        letter-spacing: -1px;
-    }
-    .container{
-        width: 100%;
-        display: grid;
-        grid: template columns 1fr 2fr ;
-    }
-       
-}
+

@@ -8,19 +8,48 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <header>
+    <header class="headlogo">
         <img src="./images/logo/logo.png" alt="logo">
     </header>
-    <main>
+    <main class="pmain">
         <div class="pagehead">
             <h1>Want to be</h1>
             <h1>your own</h1>
             <h1>boss?</h1>
+
+            <p>
+                Start today and make up to $30/hr driving your
+                <br>own vehicle with Dash!
+            </p> 
         </div>
-        <p>
-            Start today and make up to $30/hr driving your
-            <br>own vehicle with Dash!
-        </p>
+     
+        <div class="contacthead">
+            <h2>Apply Now</h2>
+            <p>Enter your info below to get started.</p>
+            <form action="apply">
+                <div>
+                    <label for="fname"></label>
+                    <input type="text" name="fname" id="fname" placeholder="First Name">
+                </div>
+                <div>
+                    <label for="lname"></label>
+                    <input type="text" name="lname" id="lname" placeholder="Last Name">
+                </div>
+                <div>
+                    <label for="email"></label>
+                    <input type="text" name="email" id="email" placeholder="Email">
+                </div>
+                <div>
+                    <label for="number"></label>
+                    <input type="text" name="number" id="number" placeholder="Phone Number">
+                </div>
+                <div class="checkboxs-terms"> 
+                    <input type="checkbox" name="terms" class="terms">
+                    <span>I agree to Dash terms</span>
+                </div>
+                <button type="submit">DRIVE WITH US</button>
+                <p>Already applied? <a href="#">Check your application status here</a></p>
+            </form>
 
     </main>
 
@@ -28,10 +57,16 @@
         <div class="footerform">
         <p><b>See how much you can earn with Dash.</b></p>
         <p>how many hours do you want to drive with us this week?</p>
-            <form action="/action_page.php">
-                <input type="text" id="fname" name="fname" value="Hours">
-                <input type="text" id="lname" name="lname" value="City">
-                <input type="submit" value="Calculate">
+            <form action="calculate_hours">
+                <div>
+                    <input type="text" id="fname" name="fname" value="Hours">
+                </div>
+                <div>
+                    <input type="text" id="lname" name="lname" value="City">
+                </div>
+                <div>
+                    <input type="submit" value="Calculate">
+                </div>
               </form> 
         </div>
         <div class="socialmedia">
