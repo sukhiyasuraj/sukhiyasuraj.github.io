@@ -145,9 +145,17 @@ p {
 
 .checkboxs-terms {      
     font-family: "Montserrat", "sans-serif";
-    margin:1px;
+    margin: 1px;
     display: flex;
     align-items: center;
+}
+
+.checkboxs-terms input {
+    flex-basis: 20%;
+}
+
+.checkboxs-terms span {
+    flex-basis: 80%;
 }
 
 /* *****************************************************Using flex to put everything side by side************************** */
@@ -183,7 +191,8 @@ footer {
     margin-left: 1rem;
     margin-right: 0rem;
     
-}.footerform {
+}
+.footerform {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -207,8 +216,14 @@ footer {
 .footerform#submit{
     flex-basis: 100%;       
 }
+
 .socialmedia a {
     margin: 0.5rem;
+}
+
+.socialmedia {
+    flex-basis: 100%;
+    align-items: center;
 }
 
 
@@ -226,6 +241,8 @@ footer {
     }
     .pmain img {
         max-width: 750px;
-        z-index: -1;        
-        margin: 0 -10rem;       
+        z-index: -3;        
+        margin: 0 -11rem;       
     }   
+
+    /* **************************Tablet ****************************** */
