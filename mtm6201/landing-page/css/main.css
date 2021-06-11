@@ -193,6 +193,19 @@ footer {
     border: none;
     width: 100%;
 }
+/*  */
+.footer .socialmedia {       
+    margin-left: 1rem;
+    flex-basis: auto;
+}
 
-
-
+.footerform div {
+    flex-basis: 50%; 
+    margin-right:1rem;
+}
+.footerform#submit{
+    flex-basis: 100%;       
+}
+.socialmedia a {
+    margin: 0.5rem;
+}
