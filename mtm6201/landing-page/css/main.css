@@ -248,7 +248,39 @@ footer {
         z-index: -3;        
         margin: 0 -11rem;       
     }   
+/* ******************************Footer for Desktop******************* */
+
+/* Aligniong  the social media icons to the right side of the page */
+
+.footerform div:nth-child(4) {
+    margin-right: auto;
+}
+
+.footerform div:nth-child(5) {
+    align-self: center;
+}
+
+.socialmedia a {
+    margin: 1rem;
+}
+
+
     /* **************************Tablet ****************************** */
 @media screen {min-width: 680px){
+    
+    h1 {
+        font-size: 5rem;
+    }
+
+    main .mimg {
+        margin-top: -5rem;
+    }
+
+    /* Aligning all the items in the footer-form to the center */
+
+    .footerform {
+        align-items: center;
+        justify-content: center;
+    }
         
 }
