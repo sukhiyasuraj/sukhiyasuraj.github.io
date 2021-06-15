@@ -252,11 +252,11 @@ footer {
 
 /* Aligniong  the social media icons to the right side of the page */
 
-.footerform div:nth-child(4) {
+.footerform #submit {
     margin-right: auto;
 }
 
-.footerform div:nth-child(5) {
+.footerform .socialmedia {
     align-self: center;
 }
 
