@@ -1,0 +1,50 @@
+body{
+	margin: 0px;
+}
+.header{
+	display: flex;
+	
+	justify-content: flex-start;
+	flex-direction: column;
+	height: 15vh;
+	width: 100%;
+	background-color: #555;
+	color:#f1f1f1;
+	margin: 0px;
+	padding-left: 1rem;
+	box-sizing: border-box;
+}
+.header .breadcrumb a:link{
+	letter-spacing: 1px;
+	color: white;
+	text-decoration: none;
+
+}
+.products-list{
+	display: grid;
+	grid-template-rows: repeat(2,minmax(200px,auto));
+	grid-template-columns: repeat(auto-fill,minmax(350px,auto));
+	grid-auto-rows: minmax(200px,auto);
+}
+.products-list .card{
+	
+	border: 1px solid black;
+	padding: 1rem;
+	margin: 0.5rem;
+	text-align: center;
+	font-family: arial;
+}
+.card button {
+	border-width: 0px;
+	padding: 12px;
+	color: white;
+	background-color: rgb(185, 27, 206);
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+	font-size: 18px;
+  }
+  
+  .card button:hover {
+	opacity: 0.7;
+  }
