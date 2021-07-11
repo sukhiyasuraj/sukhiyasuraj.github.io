@@ -1,56 +1,63 @@
-body{
+body {
 	margin: 0px;
 }
-.header{
+
+.header {
 	display: flex;
 	align-items: start;
-	justify-content:center;
+	justify-content: center;
 	flex-direction: column;
 
 	height: 15vh;
 	width: 100%;
 	background-color: #555;
-	color:#f1f1f1;
+	color: #f1f1f1;
 	margin: 0px;
 	padding-left: 1rem;
 	box-sizing: border-box;
 	font-size: 1.2rem;
 }
-.header .breadcrumb a:link{
+
+.header .breadcrumb a:link {
 	letter-spacing: 1px;
 	color: white;
 	text-decoration: none;
 
 }
-.header .breadcrumb a:visited{
+
+.header .breadcrumb a:visited {
 	letter-spacing: 1px;
 	color: white;
 	text-decoration: none;
 
 }
-.contact-us-section{
+
+.contact-us-section {
 	width: 100%;
-	
+
 	display: flex;
 	align-items: center !important;
 	justify-content: center !important;
 
 }
-.input-form-box{
+
+.input-form-box {
 	width: 70%;
 	padding: 2rem;
 	box-sizing: border-box;
 	text-align: center;
-	
+
 }
-.input-form-box form{
+
+.input-form-box form {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
 }
-.input-form-box input{
-	
+
+.input-form-box input {
+
 	margin: 1rem;
 	width: 60%;
 	border-radius: 10px;
@@ -59,8 +66,9 @@ body{
 	background-color: rgb(201, 212, 214);
 
 }
-.input-form-box button{
-	
+
+.input-form-box button {
+
 	margin: 1rem;
 	width: 40%;
 	border-radius: 10px;
@@ -72,25 +80,29 @@ body{
 	box-shadow: 2px 2px #363636;
 
 }
-.input-form-box button:hover{
+
+.input-form-box button:hover {
 
 	background-color: rgb(110, 117, 131);
 	color: #f5f4f4;
 }
-.illustration{
+
+.illustration {
 	width: 30%;
-	
+
 }
 
-@media(max-width:599px){
-	.contact-us-section{
+@media(max-width:599px) {
+	.contact-us-section {
 		flex-direction: column;
 	}
-	.input-form-box{
+
+	.input-form-box {
 		width: 100%;
 	}
-	.illustration{
+
+	.illustration {
 		width: 100%;
-		
+
 	}
 }

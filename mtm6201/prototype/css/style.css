@@ -1,88 +1,96 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
-body{
+body {
 	margin: 0px;
 	padding: 0px;
 }
-.navbar{
+
+.navbar {
 	width: 100%;
 	background-color: #555;
 	overflow: auto;
-	margin: 0px ;
-	
-  }
-  
-  .navbar a {
+	margin: 0px;
+
+}
+
+.navbar a {
 	float: left;
 	padding: 12px;
 	color: white;
 	text-decoration: none;
 	font-size: 17px;
-	margin-right:0.5rem ;
-  }
-  
-  .navbar a:hover {
+	margin-right: 0.5rem;
+}
+
+.navbar a:hover {
 	background-color: #000;
-  }
-  
-  .active {
+}
+
+.active {
 	background-color: #04AA6D;
-  }
-  .container{
+}
+
+.container {
 	height: 100vh;
 	width: 100%;
 	display: flex;
 	overflow-y: scroll;
 	height: 83vh;
-  }
-  .image-box{
-	  height: 100%;
-	  width: 40%;
-	  border: 1px solid black;
-	  display: flex;
-	  align-items: center;
-	  justify-content: center;
-	  box-sizing: border-box;
-	  background-color: rgb(170, 73, 170);
-  }
-  .message-box{
-	  width: 60%;
-	  border: 1px solid black;
-	  box-sizing: border-box;
-	  background-color: rgb(172, 151, 151);
-	  color: #f1f1f1;
-  }
-  .message-box .header{
-	  	padding: 1rem;
-		font-size: 2rem;
-		text-align: center;
-		font-family: 'Lobster', cursive;
-		letter-spacing: 1px
-	}
-	.message-box  img{
-		border-radius:50%;
-		display: block;
-		float: right !important;
-		margin-right: 1rem;
-	}
-	.message-box .shore-details{
-		padding: 1rem;
-		font-size: 1rem;
-	}
-	.message-box button{
-		display: block;
-		padding: 1.2rem 2rem;
-		font-size: 1.5rem;
-		margin: 1rem auto;
-		color: #f1f1f1;
-		box-shadow: 3px 1px 1px #363633;
-		background-color: transparent;
-		border: 5px solid yellow;
-		font-weight: bolder;
-		cursor: pointer;
-	}
+}
 
-.footer{
+.image-box {
+	height: 100%;
+	width: 40%;
+	border: 1px solid black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-sizing: border-box;
+	background-color: rgb(170, 73, 170);
+}
+
+.message-box {
+	width: 60%;
+	border: 1px solid black;
+	box-sizing: border-box;
+	background-color: rgb(172, 151, 151);
+	color: #f1f1f1;
+}
+
+.message-box .header {
+	padding: 1rem;
+	font-size: 2rem;
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	letter-spacing: 1px
+}
+
+.message-box img {
+	border-radius: 50%;
+	display: block;
+	float: right !important;
+	margin-right: 1rem;
+}
+
+.message-box .shore-details {
+	padding: 1rem;
+	font-size: 1rem;
+}
+
+.message-box button {
+	display: block;
+	padding: 1.2rem 2rem;
+	font-size: 1.5rem;
+	margin: 1rem auto;
+	color: #f1f1f1;
+	box-shadow: 3px 1px 1px #363633;
+	background-color: transparent;
+	border: 5px solid yellow;
+	font-weight: bolder;
+	cursor: pointer;
+}
+
+.footer {
 	display: flex;
 	flex-direction: column;
 
@@ -91,20 +99,24 @@ body{
 	position: fixed;
 	bottom: 0;
 	background-color: #555;
-	color:#f1f1f1;
+	color: #f1f1f1;
 }
-  @media(max-width: 500px) {
-	.container{
+
+@media(max-width: 500px) {
+	.container {
 		flex-direction: column;
 	}
+
 	.navbar a {
-	  float: none;
-	  display: block;
+		float: none;
+		display: block;
 	}
-	.image-box{
+
+	.image-box {
 		width: 100%;
 	}
-	.message-box{
+
+	.message-box {
 		width: 100%;
 	}
 }
