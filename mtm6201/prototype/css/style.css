@@ -102,6 +102,8 @@ body {
 	color: #f1f1f1;
 }
 
+/* ***************************Moblie Site*************************************** */
+
 @media(max-width: 500px) {
 	.container {
 		flex-direction: column;
