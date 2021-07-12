@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
 
 body {
 	margin: 0px;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 .header {
@@ -52,18 +54,20 @@ body {
 	padding: 1rem;
 	margin: 0.5rem;
 	text-align: center;
-	font-family: arial;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 .card button {
-	border-width: 0px;
-	padding: 12px;
-	color: white;
-	background-color: rgb(185, 27, 206);
-	text-align: center;
+	font-weight: bold;
+    font-size: 1.25rem;
+    background-color: #ff8480;
+    color: white;
+    padding: 0.75rem;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+	font-weight: bolder;
 	cursor: pointer;
-	width: 100%;
-	font-size: 18px;
 }
 
 .card button:hover {
