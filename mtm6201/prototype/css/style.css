@@ -9,7 +9,7 @@ body {
 
 .navbar {
 	width: 100%;
-	background-color: #555;
+	background-color: #190933;
 	overflow: auto;
 	margin: 0px;
 
@@ -27,6 +27,15 @@ body {
 .navbar a:hover {
 	background-color: #000;
 }
+
+.navbar img{
+	float: right;
+	
+} 
+/* ****************Navigation added in th top right corner of the nav bar in brand logo */
+
+.navbar img:hover{
+	transform: scale(0.5); transition:2s;}
 
 .active {
 	background-color: #04AA6D;
@@ -49,7 +58,10 @@ body {
 	justify-content: center;
 	box-sizing: border-box;
 	background-color: #a491d3;
+	
 }
+
+
 
 .message-box {
 	width: 60%;
@@ -74,6 +86,12 @@ body {
 	margin-right: 1rem;
 }
 
+.message-box img{
+	
+	transform: rotate(360deg); transition:2s;
+	animation-iteration-count: 5;
+}
+
 .message-box .shore-details {
 	padding: 1rem;
 	font-size: 1rem;
@@ -91,16 +109,20 @@ body {
 	font-weight: bolder;
 	cursor: pointer;
 }
+.footer a{
+	color: white;
+	height: 11vh;
+	
+}
 
 .footer {
 	display: flex;
 	flex-direction: column;
-
 	height: 11vh;
 	width: 100%;
 	position: fixed;
 	bottom: 0;
-	background-color: #555;
+	background-color: #190933;
 	color: #f1f1f1;
 }
 
