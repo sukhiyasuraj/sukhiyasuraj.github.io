@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
 
@@ -94,6 +94,7 @@ body {
 .message-box img{
 	transform: rotate(360deg); transition:2s;
 	animation-iteration-count: ;
+	/* Used max width and hight to limit the size of image to change */
 	max-width: 150px;
 	max-height: 150px;
 }

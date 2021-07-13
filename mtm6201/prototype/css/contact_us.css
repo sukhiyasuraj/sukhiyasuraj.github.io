@@ -114,6 +114,16 @@ body {
 
 }
 
+.footer {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	background-color: #190933;
+	color: #f1f1f1;
+}
+
 @media(max-width:500px) {
 	.contact-us-section {
 		flex-direction: column;
