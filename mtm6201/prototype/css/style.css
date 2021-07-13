@@ -63,7 +63,7 @@ body {
 	box-sizing: border-box;
 	background-color: #a491d3;
 }
-
+/* *********To get the image output as it is displayed in webpage************** */
 .image-box img {
 	max-height: 80%;
 	max-width: 80%;
@@ -78,7 +78,7 @@ body {
 	background-color: #818aa3;
 	color: #f1f1f1;
 }
-
+/**************** Diffrent fount family used ************* */
 .message-box .header {
 	padding: 1rem;
 	font-size: 2rem;
@@ -94,7 +94,7 @@ body {
 	margin-right: 1rem;
 
 }
-
+/* *************Animation tag used to add animation on the quote image *********** */
 .message-box img {
 	transform: rotate(360deg);
 	transition: 2s;
@@ -107,6 +107,8 @@ body {
 	padding: 1rem;
 	font-size: 1rem;
 }
+
+/* *********Message button Styling*********** */
 
 .message-box button {
 	font-weight: bold;
