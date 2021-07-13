@@ -1,5 +1,4 @@
-
-
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
 
 body {
@@ -28,15 +27,19 @@ body {
 .navbar a:hover {
 	background-color: #000;
 }
+
 /* Code added so that image align or float on left side of nav bar */
-.navbar img{
+.navbar img {
 	float: right;
-	
-} 
+
+}
+
 /* ****************Navigation added in th top right corner of the nav bar in brand logo */
 
-.navbar img:hover{
-	transform: scale(0.5); transition:2s;}
+.navbar img:hover {
+	transform: scale(0.5);
+	transition: 2s;
+}
 
 .active {
 	background-color: #04AA6D;
@@ -60,6 +63,7 @@ body {
 	box-sizing: border-box;
 	background-color: #a491d3;
 }
+
 .image-box img {
 	max-height: 80%;
 	max-width: 80%;
@@ -71,7 +75,7 @@ body {
 	width: 60%;
 	border: 1px solid black;
 	box-sizing: border-box;
-	background-color:#818aa3;
+	background-color: #818aa3;
 	color: #f1f1f1;
 }
 
@@ -88,12 +92,12 @@ body {
 	display: block;
 	float: right !important;
 	margin-right: 1rem;
-	
+
 }
 
-.message-box img{
-	transform: rotate(360deg); transition:2s;
-	animation-iteration-count: ;
+.message-box img {
+	transform: rotate(360deg);
+	transition: 2s;
 	/* Used max width and hight to limit the size of image to change */
 	max-width: 150px;
 	max-height: 150px;
@@ -106,20 +110,21 @@ body {
 
 .message-box button {
 	font-weight: bold;
-    font-size: 1.25rem;
-    background-color: #ff8480;
-    color: white;
-    padding: 0.75rem;
-    width: 100%;
-    border: none;
-    border-radius: 10px;
+	font-size: 1.25rem;
+	background-color: #ff8480;
+	color: white;
+	padding: 0.75rem;
+	width: 100%;
+	border: none;
+	border-radius: 10px;
 	font-weight: bolder;
 	cursor: pointer;
 }
-.footer a{
+
+.footer a {
 	color: white;
 	height: 11vh;
-	
+
 }
 
 .footer {
