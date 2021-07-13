@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
 
 body {
@@ -27,7 +28,7 @@ body {
 .navbar a:hover {
 	background-color: #000;
 }
-
+/* Code added so that image align or float on left side of nav bar */
 .navbar img{
 	float: right;
 	
@@ -58,9 +59,12 @@ body {
 	justify-content: center;
 	box-sizing: border-box;
 	background-color: #a491d3;
-	
 }
+.image-box img {
+	max-height: 80%;
+	max-width: 80%;
 
+}
 
 
 .message-box {
@@ -84,12 +88,14 @@ body {
 	display: block;
 	float: right !important;
 	margin-right: 1rem;
+	
 }
 
 .message-box img{
-	
 	transform: rotate(360deg); transition:2s;
-	animation-iteration-count: 5;
+	animation-iteration-count: ;
+	max-width: 150px;
+	max-height: 150px;
 }
 
 .message-box .shore-details {

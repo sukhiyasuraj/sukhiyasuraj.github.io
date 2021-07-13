@@ -8,23 +8,21 @@ body {
 
 .header {
 	display: flex;
-	align-items: start;
-	justify-content: center;
+	justify-content: flex-start;
 	flex-direction: column;
-
-	height: 15vh;
 	width: 100%;
-	background-color: #555;
+	background-color: #190933;
 	color: #f1f1f1;
 	margin: 0px;
 	padding-left: 1rem;
 	box-sizing: border-box;
-	font-size: 1.2rem;
+	font-size: 1.5rem;
 }
+
 
 .navbar {
 	width: 100%;
-	background-color: #555;
+	background-color: #190933;
 	overflow: auto;
 	margin: 0px;
 
@@ -43,6 +41,18 @@ body {
 	background-color: #000;
 }
 
+/* Code added so that image align or float on left side of nav bar */
+.navbar img {
+	float: right;
+
+}
+
+/* ****************animantion  added in th top right corner of the nav bar in brand logo*********** */
+
+.navbar img:hover {
+	transform: scale(0.5);
+	transition: 2s;
+}
 .info-box {
 	border: 1px dotted black;
 	padding: 1rem;
@@ -56,4 +66,14 @@ body {
 	color: white;
 	text-decoration: none;
 
+}
+
+.footer {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	background-color: #190933;
+	color: #f1f1f1;
 }
