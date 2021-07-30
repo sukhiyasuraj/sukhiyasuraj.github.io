@@ -1,0 +1,289 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Portfolio Styles */
+
+/* ****Use boder boxing to prevent padding to go over 100% width */
+html {
+	box-sizing: border-box;
+}
+
+*, *::after, *::before {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.pictures img {
+	margin: 1rem 0;
+}
+
+.about h1 {
+	font-size: 3rem;
+	text-align: center;
+	margin: 1rem 0;
+	color: #AA0909;
+}
+
+/* top right bottom left */
+/* top-bottom right-left */
+
+.about p {
+	margin: 0 1.5rem 1rem 1rem;
+}
+
+.nav-list {
+	background-color: #A1674A;
+}
+
+.nav-item {
+	list-style-type: none;
+	text-align: center;
+	padding: 1rem;
+}
+
+.nav-item a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.logoimg{
+	width: 50%;
+	height: auto;
+}
+
+/* ************Contact Page Design*************** */
+
+.contact {
+	margin: 1.5rem;
+}
+
+.contact-form input {
+	width: 100%;
+	margin-top: 0.5rem;
+	padding: 0.75rem;
+}
+
+.contact-form div {
+	margin: 1rem 0;
+}
+
+.contact-form textarea {
+	width: 100%;
+	resize: none;
+}
+
+.contact-form button {
+	width: 100%;
+	background-color: #A1674A;
+	color: #fff;
+	padding: 1rem;
+	border: none;
+	border-radius: 8px;
+}
+
+/* My Skills */
+
+.myskills {
+	background-color: #A1674A;
+}
+
+.myskills h1 {
+	font-size: 4rem;
+	color: #fff;
+	text-align: center;
+	margin: 1rem 0;
+}
+
+.myskills h3 {
+	text-align: center;
+	margin: 1rem 0;
+}
+
+/* Applying flex to all the skill categories */
+
+.software, .programming, .system {
+	background-color: #fff;
+	margin: 1rem;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+.software div, .programming div,.system div  {
+	display: flex;
+	justify-content: center;
+	margin: 1rem 0;
+}
+
+
+/* Tablet Styles */
+
+@media screen and (min-width:768px) {
+	
+
+	/* Navigation */
+
+	.nav-list {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.nav-item:nth-child(1) {
+		flex-basis: 100%;
+	}
+
+
+
+	/* Home Page */
+
+	.about h1 {
+		font-size: 4rem;
+	}
+
+	.pictures {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-column-gap: 1.5rem;
+		margin: 1rem 2rem;
+	}
+
+	/* Contact Page */
+
+	.contact-form {
+		margin: 4rem 4rem;
+	}
+
+	/* Skills Page */
+
+	.skill-categories {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		margin: 1rem 2rem;
+	}
+}
+
+/* Desktop Styles */
+
+@media screen and (min-width: 1080px) {
+	
+	.nav-item:nth-child(2), .nav-item:nth-child(3), .nav-item:nth-child(4), .nav-item:nth-child(5) {
+		flex-basis: 6%;
+	}	
+
+	.nav-item:nth-child(1) {
+		flex-basis: 76%;
+		display: flex;
+		justify-content: flex-start;
+	}
+
+	.logoimg {
+		height: 100px;
+		width: 300px;
+	}
+
+	.nav-list {
+		padding: 0 3rem;
+	}
+
+
+	/* Home Page */
+
+	.home {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.about h1 {
+		text-align: left;
+	}
+
+	.pictures {
+		display: block;
+	}
+
+	/* Portfolio page */
+
+	.container {
+		max-width: 1600px;
+	}
+
+	/* Skills Page */
+
+	.myskills h1 {
+		text-transform: uppercase;
+		font-size: 5rem;
+		padding-top: 2rem;
+	}
+
+}
