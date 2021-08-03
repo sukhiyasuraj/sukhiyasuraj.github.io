@@ -119,6 +119,44 @@ img {
 	height: auto;
 }
 
+/* ****Footer***** */
+.footer{
+	background-color: #A1674A;
+	color: #fff;
+	padding: 20px;
+
+}
+.footer h5{
+	font-size: 1.25rem;
+}
+.footer a{
+	text-decoration: none;
+	color: #fff;
+}
+.footer .container
+{
+	margin: 20px;
+	text-align: center;
+}
+.footer .social-media{
+	display: flex;
+	justify-content: center;
+}
+.footer .social-media li{
+	margin: 25px;
+	font-size: 2rem;
+}
+.footernav {
+	margin: 45px 0;
+}
+footer .footernav li{
+	margin: 8px;
+	text-transform: uppercase;
+}
+footer .contactme li{
+	margin: 8px;
+	
+}
 /* ************Contact Page Design*************** */
 
 .contact {
@@ -202,7 +240,20 @@ img {
 	.nav-item:nth-child(1) {
 		flex-basis: 100%;
 	}
+	/* Footer */
 
+	.footer{
+		display: grid;
+		grid-template-columns:1fr 1fr 1fr;
+	}
+
+	.footer .footernav{
+		margin-top: 0px;
+		text-align: left;
+	}
+	.footer .connectme{
+		margin-top: 10px;
+	}
 
 
 	/* Home Page */
@@ -238,11 +289,11 @@ img {
 @media screen and (min-width: 1080px) {
 	
 	.nav-item:nth-child(2), .nav-item:nth-child(3), .nav-item:nth-child(4), .nav-item:nth-child(5) {
-		flex-basis: 10%;
+		flex-basis: 15%;
 	}	
 
 	.nav-item:nth-child(1) {
-		flex-basis: 60%;
+		flex-basis: 40%;
 		display: flex;
 		justify-content: flex-start;
 	}
@@ -269,7 +320,9 @@ img {
 	}
 
 	.pictures {
-		display: block;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		margin-bottom: 300px;
 	}
 
 	/* Portfolio page */
@@ -286,4 +339,30 @@ img {
 		padding-top: 2rem;
 	}
 
+	/* footer */
+	.footernav ul{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.footernav ul li{
+		margin: 15px;
+	}
+
+	.footernav ul li:nth-child(1){
+		flex-basis: 100%;
+	}
+
+}
+
+@media screen and (min-width: 1400px) {
+	
+	.nav-item:nth-child(2), .nav-item:nth-child(3), .nav-item:nth-child(4), .nav-item:nth-child(5) {
+		flex-basis: 10%;
+	}	
+
+	.nav-item:nth-child(1) {
+		flex-basis: 60%;
+		display: flex;
+		justify-content: flex-start;
+	}
 }
