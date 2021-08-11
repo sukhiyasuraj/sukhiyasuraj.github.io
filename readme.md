@@ -6,8 +6,6 @@ Video Production Image: https://www.pexels.com/photo/black-camera-recorder-66134
 User Design Image: https://www.pexels.com/photo/serious-woman-working-on-laptop-and-using-drawing-tablet-7014916/
 
 
-FontStyle:<link rel="preconnect" href="https://fonts.googleapis.com">
-          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-          <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+FontStyle:
 
 

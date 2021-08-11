@@ -69,7 +69,7 @@ body {
 }
 
 h1 {
-
+font-size: 3rem ;
 }
 
 h2 {
@@ -164,6 +164,10 @@ footer .contactme li{
 	
 }
 /* ************Contact Page Design*************** */
+h1 {
+	font-size: 4rem ;
+	text-align: center;
+	}
 
 .contact {
 	margin: 1.5rem;
