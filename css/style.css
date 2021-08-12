@@ -73,7 +73,7 @@ font-size: 3rem ;
 }
 
 h2 {
-
+	font-size: 1.25rem;
 }
 
 h3 {
@@ -83,7 +83,9 @@ h3 {
 
 img {
 	max-width: 100%;
-	height: auto;
+	height: 350px;
+	width: 100%;
+
 }
 
 .pictures img {
@@ -97,6 +99,10 @@ img {
 	color: #AA0909;
 }
 
+.homeheading{
+	font-size: 1.25rem;
+
+}
 /* top right bottom left */
 /* top-bottom right-left */
 
@@ -201,14 +207,16 @@ h1 {
 /* Potfolio child pages */
 /* **********Photography ************/
 
-.photosskill{
+.photosskill, .uxskill, .webskill{
 	margin: 1rem;
-	margin-bottom: 0.5rem;
+	margin-bottom: 1rem;
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
 	flex-direction: column;
 }
+
+
 
 
 /* My Skills */
@@ -314,6 +322,14 @@ h1 {
 		grid-column-gap: 1rem;
 		margin: 1rem 2rem;
 	}
+
+	.uxskill, .webskill{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-column-gap: 1rem;
+		margin: 1rem 2rem;
+
+	}
 }
 
 /* Desktop Styles */
@@ -353,8 +369,7 @@ h1 {
 
 	.pictures {
 		display: grid;
-		grid-template-columns: 1fr 1fr;
-		margin-bottom: 300px;
+		grid-template-columns: 1fr;
 	}
 
 	/* Portfolio page */
