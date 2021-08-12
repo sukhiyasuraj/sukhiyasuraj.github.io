@@ -239,12 +239,13 @@ h1 {
 /* My Skills */
 
 .myskills {
-	background-color: #A1674A;
+	background-color:white;
+	color: #A1674A;
 }
 
 .myskills h1 {
 	font-size: 4rem;
-	color: #fff;
+	color: #A1674A;
 	text-align: center;
 	margin: 1rem 0;
 }
