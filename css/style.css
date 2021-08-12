@@ -83,7 +83,7 @@ h3 {
 
 img {
 	max-width: 100%;
-	height: 350px;
+	height: 300px;
 	width: 100%;
 
 }
@@ -129,7 +129,20 @@ img {
 .logoimg{
 	width: 50%;
 	height: auto;
+	animation-name: rotate;
+  	animation-duration: 3s;
 }
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
 
 /* ****Footer***** */
 .footer{
