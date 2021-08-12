@@ -197,6 +197,20 @@ h1 {
 	border-radius: 8px;
 }
 
+
+/* Potfolio child pages */
+/* **********Photography ************/
+
+.photosskill{
+	margin: 1rem;
+	margin-bottom: 0.5rem;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+
 /* My Skills */
 
 .myskills {
@@ -290,6 +304,14 @@ h1 {
 	.skill-categories {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
+		
+	}
+
+	/* potfolio child page */
+	.photosskill{
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-column-gap: 1rem;
 		margin: 1rem 2rem;
 	}
 }
