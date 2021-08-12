@@ -276,7 +276,9 @@ h1 {
 /* Tablet Styles */
 
 @media screen and (min-width:768px) {
-	
+	.footer .container{
+		margin: 0;
+	}
 
 	/* Navigation */
 
