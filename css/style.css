@@ -220,6 +220,10 @@ h1 {
 /* Potfolio child pages */
 /* **********Photography ************/
 
+.container a{
+	text-decoration: none;
+}
+
 .photosskill, .uxskill, .webskill{
 	margin: 1rem;
 	margin-bottom: 1rem;
